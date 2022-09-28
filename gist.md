@@ -20,7 +20,7 @@ This is a Regex that is used to verify the proper format of an email address.  T
 
 ([0-9a-zA-Z_\.-]+)
 
-2.  The brackets indicate it is seaching for any single character that is inside of the brackets.  In this case, any digits from 0 and 9, any lowercase letters from a to z, any uppercase letters from A to Z, any underscores, any dashes, and any periods or dots.  The backslash before the dot has a special purpose in a Regex.  The backslash is an escape symbol for the character that follows it. The backslash followed by a dot indicates that it is searching for a dot or a period. A dot or a period without the backslash is used to match any single character.  The parenthesis capture everything contained within as a string. 
+2.  The brackets indicate it is seaching for any single character that is inside of the brackets.  In this case, any digits from 0 and 9, any lowercase letters from a to z, any uppercase letters from A to Z, any underscores, any dashes, and any periods or dots.  The backslash before the dot has a special purpose in a Regex.  The backslash is an escape symbol for the character that follows it. The backslash followed by a dot indicates that it is searching for a dot or a period. A dot or a period without the backslash is used to match any single character.  The plus symbol outside of the brackets indicates that the string within the brackets can be used from one to infinite times.  The parenthesis capture everything contained within as a string. 
 
 @
 
@@ -30,7 +30,7 @@ This is a Regex that is used to verify the proper format of an email address.  T
 
 4.  This example is nearly identical to part 2.  The difference is the backslash and d.  The backslash and d indicates that it is searching for a digit (equal to [0-9]).  
 
-\.
+\\.
 
 5.  The backslash before the dot is the same as in part 2.  Every email address format contains a dot (.com, .org, etc).
 
@@ -76,7 +76,7 @@ $/
 
 ### Character Escapes
 
-\.
+\\.
 
 ## 🦋 Author
 
