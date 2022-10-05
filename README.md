@@ -27,7 +27,7 @@ A Regular Expression, or a "Regex", is a string of characters that is used to de
 
 ## 🌼 Installation
 
-npm install
+no installation
 
 ## 🌼 Issues
 
@@ -74,7 +74,7 @@ Contact me by email, with any thoughts or questions.
 
 ## 🌼 Tests
 
-npm test
+no testing
 
 ## 🌼 Github
 
